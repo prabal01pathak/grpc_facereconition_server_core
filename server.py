@@ -6,13 +6,21 @@ import grpc
 import bidirectional_pb2_grpc as bidirectional_pb2_grpc
 import bidirectional_pb2 as pb2
 import utils
-
+from Settings import *
 
 class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
-
+    
     def GetServerResponse(self, request_iterator, context):
+        '''
+            this service work for bidirection face recognition        
+        '''
         for message in request_iterator:
             nparr = utils.convert_and_save(message.message,'sushant')
+
+            
+
+
+
             yield nparr
             
     # function to register 
@@ -20,10 +28,16 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
     def GetRegisterFace(self, request, context):
         #pass
         print(request.uuid,request.image)
-        #for req in request:
-            #print(req.uuid,req.image)
+        
 
-            #print("registered data {}" .format (req.uuid),"image_string {}".format(req.image))
+            
+
+        #Todo apply etl pipeliner
+
+        #etl.save to save data
+
+        #Todo register user in mongodb server
+
         return pb2.RegisterMessage(uuid=request.uuid,image=request.image)
             
         #return super().GetRegisterFace(request, context)
