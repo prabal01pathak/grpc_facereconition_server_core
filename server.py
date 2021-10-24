@@ -7,9 +7,18 @@ import bidirectional_pb2_grpc as bidirectional_pb2_grpc
 import bidirectional_pb2 as pb2
 import utils
 from Settings import *
+from db_handler import database as db
+
+db = client['FaceGenie_database']
+collection = db['Face_registration']
+
+a = db(client,db,collection)
+
+
+
 
 class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
-    
+
     def GetServerResponse(self, request_iterator, context):
         '''
             this service work for bidirection face recognition        
@@ -17,8 +26,17 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         for message in request_iterator:
             nparr = utils.convert_and_save(message.message,'sushant')
 
-            
+            data=[{'Name':'suraj','user_id':'suraj123'},
+            {'Name':'sushant','user_id':'sushant123'},
+            {'Name':'pawan','user_id':'pawan123'},
+            {'Name':'sanjay','user_id':'sanjay123'},
 
+                    
+        ]
+        
+            a.read_data(collection,data)
+        # a.update(collection)
+        # print(a.client)
 
 
             yield nparr
@@ -37,7 +55,7 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         #etl.save to save data
 
         #Todo register user in mongodb server
-
+        a.insert_data(collection)
         return pb2.RegisterMessage(uuid=request.uuid,image=request.image)
             
         #return super().GetRegisterFace(request, context)

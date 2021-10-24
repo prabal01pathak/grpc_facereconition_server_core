@@ -1,5 +1,12 @@
 import pymysql
 import os
+import pymongo
+import time
+import pyaml
+
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+
+
 BASE_DIRECTORY = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_PATH=os.path.abspath(os.path.join(BASE_DIRECTORY,'uploads'))
 
