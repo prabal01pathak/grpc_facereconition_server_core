@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package bidirectional;
+
+service Bidirectional {
+  // A Bidirectional streaming RPC.
+  //
+  // Accepts a stream of Message sent while a route is being traversed,
+   rpc GetServerResponse(stream Message) returns (stream Message) {}
+}
+
+service FaceRegistration{
+  //service for face registration  
+  rpc GetRegisterFace(RegisterMessage) returns (RegisterMessage) {}
+}
+  
+
+message Message {
+  string message = 1;
+}
+
+message RegisterMessage{
+  string uuid = 1;
+  string image = 2;
+  
+}
