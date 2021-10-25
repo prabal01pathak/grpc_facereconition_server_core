@@ -163,7 +163,7 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
                         ]
             except:
                 pass
-
+        print("register done")
         #Todo register user in mongodb server
         
         a.insert_data(collection)
