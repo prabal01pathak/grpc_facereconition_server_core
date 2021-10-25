@@ -5,6 +5,10 @@ import time
 import pyaml
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
+Sensitivity=0.8
+Model_Type="cnn"
+
+Number_of_times_to_upsample=3
 
 
 BASE_DIRECTORY = os.path.abspath(os.path.dirname(__file__))
