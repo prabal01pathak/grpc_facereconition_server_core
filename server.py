@@ -26,15 +26,9 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         for message in request_iterator:
             nparr = utils.convert_and_save(message.message,'sushant')
 
-            data=[{'Name':'suraj','user_id':'suraj123'},
-            {'Name':'sushant','user_id':'sushant123'},
-            {'Name':'pawan','user_id':'pawan123'},
-            {'Name':'sanjay','user_id':'sanjay123'},
-
-                    
-        ]
+            
         
-            a.read_data(collection,data)
+            a.read_data(collection)
         # a.update(collection)
         # print(a.client)
 
@@ -47,7 +41,9 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         #pass
         print(request.uuid,request.image)
         
+        data=[{'uuid':request.uuid,'image_url':'./upload/suraj/1.jpg'},
 
+        ]
             
 
         #Todo apply etl pipeliner
