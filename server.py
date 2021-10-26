@@ -8,7 +8,7 @@ import bidirectional_pb2 as pb2
 import utils
 import random
 from Settings import *
-from db_handler import database as db
+import db_handler
 import face_recognition
 import cv2
 from etlpipe import EtlLayer
@@ -18,7 +18,7 @@ collection = db['Face_registration']
 # etl encoder 
 ETL=EtlLayer()
 ETL.loader()
-
+a = db_handler.database(client)
 
 
 def recorder(frame,face_id):
@@ -78,7 +78,7 @@ def recognition(k_encodings,face_encoding,sensitivity,k_names):
         return "Unknown"
 
 
-a = db(client,db,collection)
+
 
 
 
@@ -166,7 +166,7 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         print("register done")
         #Todo register user in mongodb server
         
-        a.insert_data(collection)
+        a.insert_data(collection=collection,insertData=data)
         return pb2.RegisterMessage(uuid=request.uuid,image=request.image)
             
         #return super().GetRegisterFace(request, context)

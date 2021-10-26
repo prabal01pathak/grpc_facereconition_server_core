@@ -13,16 +13,17 @@ from Settings import client
     ] 
 collection.insert_many(insertData)
 '''
-class datbase():
-    def __init__ (self,client,db,collection):
-        self.db = db
+class database:
+    def __init__ (self,client):
+        #self.db = db
         self.client = client
-        self.collection = collection
+        #self.collection = collection
         #self.Name = Name
         
     # writing files    
     def insert_data(self,collection,insertData):
-        self.collection.insert_many(insertData)
+        #self.collection = collection
+        collection.insert_many(insertData)
        # pass
         return True
     #reading files   
@@ -42,6 +43,7 @@ class datbase():
 
         #print()
     def delete(self,collection):
+        pass
             
     
 

@@ -7,7 +7,7 @@ build-docker:
 	docker build . -t $(DOCKER_TAG)
 
 run-docker:
-	docker run --gpus all -it --rm -d -p 20021:20021 --name grpc-face-recognition $(DOCKER_TAG)
+	docker run --gpus all -it --rm -d -p 50052:50052 --name grpc-face-recognition $(DOCKER_TAG)
 
 # create-conda:
 # 	conda env create -f environment.yml -n $(CONDA_NAME)
