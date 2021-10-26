@@ -4,7 +4,7 @@ import pymongo
 import time
 import pyaml
 
-client = pymongo.MongoClient("mongodb://192.168.43.88:27017/")
+client = pymongo.MongoClient("mongodb+srv://admin:anMmSdaEFMfRF94t@cluster0.94kkr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 Sensitivity=0.8
 Model_Type="cnn"
 
