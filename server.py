@@ -1,4 +1,6 @@
 from concurrent import futures
+import threading
+import queue
 
 from google.protobuf import message
 import numpy as np
@@ -19,6 +21,10 @@ collection = db['Face_registration']
 ETL=EtlLayer()
 ETL.loader()
 a = db_handler.database(client)
+
+# queue implementation
+que =queue.Queue()
+
 
 
 def recorder(frame,face_id):
@@ -77,7 +83,38 @@ def recognition(k_encodings,face_encoding,sensitivity,k_names):
     else:
         return "Unknown"
 
+def sender(que,r1):
+    if que.empty == False:
+        request = que.get()
+        img_arr=utils.convert_and_save(request.image)
+        print(img_arr)
+        img = cv2.imdecode(img_arr, flags=cv2.IMREAD_COLOR)
+        
+        print(r1)    
 
+        if recorder(img,request.uuid)==True:
+            #save registerd encodings
+            try:
+                # ETL.save() # you can also put this to demon thread so it will do all its process in background
+                print("saved")
+                e,n=ETL.loader()
+                #=ETL.puller()
+                print("test {}".format(e))
+
+            except:
+                print("cant save")
+
+        if os.path.exists(os.path.join(UPLOAD_PATH,request.uuid)):
+            # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id)+'/'+str(r1)+".jpg
+            cv2.imwrite(os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg",img)
+            
+        else:
+            os.mkdir(os.path.join(UPLOAD_PATH,request.uuid))
+            # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id))+'/'+str(r1)+".jpg"
+            cv2.imwrite(str(os.path.join(UPLOAD_PATH,request.uuid))+'/'+str(r1)+".jpg",img)
+            
+        print("register done")
+        
 
 
 
@@ -125,48 +162,30 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
     
     def GetRegisterFace(self, request, context):
         #pass
-        print(request.uuid,request.image)
-        img_arr=utils.convert_and_save(request.image,request.uuid)
-        img = cv2.imdecode(img_arr, flags=cv2.IMREAD_COLOR)
+        print(request.uuid)
+        que.put(request)
         r1 = random.randint(0, 10)
+
+        thread_ = threading.Thread(
+                        target=sender,
+                        name="Thread1",
+                        args=(que,r1,),
+                    )
+        thread_.daemon = True
+        thread_.start()
+        try:
+            data=[{'uuid':request.uuid,'image_url':os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg"},
+
+                    ]
+            a.insert_data(collection=collection,insertData=data)
+            print("inserted to data base")
+
+        except:
+            pass
         
-            
-
-        if recorder(img,request.uuid)==True:
-            #save registerd encodings
-            try:
-                # ETL.save() # you can also put this to demon thread so it will do all its process in background
-                print("saved")
-                e,n=ETL.loader()
-                #=ETL.puller()
-                print("test {}".format(e))
-
-            except:
-                print("cant save")
-
-        if os.path.exists(os.path.join(UPLOAD_PATH,request.uuid)):
-            # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id)+'/'+str(r1)+".jpg
-            cv2.imwrite(os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg",img)
-            try:
-                data=[{'uuid':request.uuid,'image_url':os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg"},
-
-                        ]
-            except:
-                pass
-        else:
-            os.mkdir(os.path.join(UPLOAD_PATH,request.uuid))
-            # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id))+'/'+str(r1)+".jpg"
-            cv2.imwrite(str(os.path.join(UPLOAD_PATH,request.uuid))+'/'+str(r1)+".jpg",img)
-            try:
-                data=[{'uuid':request.uuid,'image_url':os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg"},
-
-                        ]
-            except:
-                pass
-        print("register done")
         #Todo register user in mongodb server
         
-        a.insert_data(collection=collection,insertData=data)
+        #a.insert_data(collection=collection,insertData=data)
         return pb2.RegisterMessage(uuid=request.uuid,image=request.image)
             
         #return super().GetRegisterFace(request, context)
