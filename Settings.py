@@ -4,9 +4,9 @@ import pymongo
 import time
 import pyaml
 
-client = pymongo.MongoClient("mongodb+srv://admin:anMmSdaEFMfRF94t@cluster0.94kkr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://suraj258:suraj258@cluster0.a1dx7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 Sensitivity=0.8
-Model_Type="cnn"
+Model_Type="hog"
 
 Number_of_times_to_upsample=3
 

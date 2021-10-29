@@ -5,6 +5,7 @@ import queue
 from google.protobuf import message
 import numpy as np
 import grpc
+from pymongo import database
 import bidirectional_pb2_grpc as bidirectional_pb2_grpc
 import bidirectional_pb2 as pb2
 import utils
@@ -14,6 +15,9 @@ import db_handler
 import face_recognition
 import cv2
 from etlpipe import EtlLayer
+import logging
+logging.basicConfig(filename='debug.log', level=logging.DEBUG)
+logging.debug('This message should go to the log file')
 db = client['FaceGenie_database']
 collection = db['Face_registration']
 
@@ -34,7 +38,7 @@ def recorder(frame,face_id):
         return False
     else:
         try:
-            print("pushing")
+            logging.debug("pushing")
             if ETL.pushers(face_encodings,face_id)==True:
                 print("pushed")
                 return True
@@ -83,35 +87,41 @@ def recognition(k_encodings,face_encoding,sensitivity,k_names):
     else:
         return "Unknown"
 
-def sender(que,r1):
-    if que.empty == False:
-        request = que.get()
-        img_arr=utils.convert_and_save(request.image)
-        print(img_arr)
-        img = cv2.imdecode(img_arr, flags=cv2.IMREAD_COLOR)
-        
-        print(r1)    
+def sender(request,r1):
+    print("function triggred with request")
+    request = request
+    img_arr=utils.convert_and_save(request.image)
+    print(img_arr)
+    img = cv2.imdecode(img_arr, flags=cv2.IMREAD_COLOR)
+    
+    print("r1 value {}".format(r1))    
 
-        if recorder(img,request.uuid)==True:
-            #save registerd encodings
-            try:
-                # ETL.save() # you can also put this to demon thread so it will do all its process in background
-                print("saved")
-                e,n=ETL.loader()
-                #=ETL.puller()
-                print("test {}".format(e))
-
-            except:
-                print("cant save")
+    if recorder(img,request.uuid)==True:
+        encoding = extractor(frame=img)
+        #save registerd encodings
+        try:
+            # ETL.save() # you can also put this to demon thread so it will do all its process in background
+            print("saved")
+            e,n=ETL.loader()
+            #=ETL.puller()
+            print("test {}".format(e))
+            ETL.save(encodings=encoding,name=request.uuid) # this function is not triggering
+        except:
+            print("cant save")
 
         if os.path.exists(os.path.join(UPLOAD_PATH,request.uuid)):
             # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id)+'/'+str(r1)+".jpg
+            print("creating directory")
             cv2.imwrite(os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg",img)
+            print("created dir")
+            
             
         else:
             os.mkdir(os.path.join(UPLOAD_PATH,request.uuid))
             # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id))+'/'+str(r1)+".jpg"
+            print("creating directory")
             cv2.imwrite(str(os.path.join(UPLOAD_PATH,request.uuid))+'/'+str(r1)+".jpg",img)
+            print("created directory")
             
         print("register done")
         
@@ -130,33 +140,49 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         '''
             this service work for bidirection face recognition        
         '''
+        print("rcognition function triggered  {}".format(request_iterator))
+        face_id = "unknown"
         for message in request_iterator:
-            nparr = utils.convert_and_save(message.message,'sushant')
+            
+            nparr = utils.convert_and_save(message.message)
+            print("numpy array converted")
             img = cv2.imdecode(nparr, flags=cv2.IMREAD_COLOR)
+            print("decodecd to image")
+            
 
 
-            #TODO: extract face encoding
+        #     #TODO: extract face encoding
             face_encodings =extractor(img)
+            print(" encoded face {}".format(face_encodings))
 
-            #TODO:get all encodings and labels from ETL.puller()
+        #     #TODO:get all encodings and labels from ETL.puller()
             k_encodings,k_names=ETL.loader()
-
+            print("Length of known face encoding {}".format(k_encodings))
             if len(k_encodings)>0:
                 
                 for face_encoding in face_encodings:
                     face_id=recognition(k_encodings,face_encoding,Sensitivity,k_names)
-                
+                    print("Fcae id {}".format(face_id))
+                    #return pb2.Message(message=face_id)
+        #             yield face_id
                             
             else:
-                face_id="no face found"
+        #         #face_id = "unknown"
+                face_id="unknown"
+            #return pb2.Message(message=face_id)
+            return face_id
+                
+
+        #         yield face_id
+                #face_id="no face found"
             
         # extract name of faceid
            #data= #a.read_data(collection)
         # a.update(collection)
         # print(a.client)
 
-
-            yield nparr #data
+            #print(face_id)
+            #yield face_id #data
             
     # function to register 
     
@@ -165,23 +191,27 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         print(request.uuid)
         que.put(request)
         r1 = random.randint(0, 10)
-
-        thread_ = threading.Thread(
-                        target=sender,
-                        name="Thread1",
-                        args=(que,r1,),
-                    )
-        thread_.daemon = True
-        thread_.start()
-        try:
-            data=[{'uuid':request.uuid,'image_url':os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg"},
+        sender(request,r1)
+        
+        # thread_ = threading.Thread(
+        #                 target=sender,
+        #                 name="Thread1",
+        #                 args=(que,r1,),
+        #             )
+        # thread_.daemon = True
+        # thread_.start()
+        data=[{'uuid':request.uuid,'image_url':os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg"},
 
                     ]
+        try:
+
+                    
+            print(data)
             a.insert_data(collection=collection,insertData=data)
             print("inserted to data base")
 
-        except:
-            pass
+        except Exception as e:
+            print(e)
         
         #Todo register user in mongodb server
         
