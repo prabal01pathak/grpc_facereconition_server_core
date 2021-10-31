@@ -1,2 +1,2609 @@
 DEBUG:root:This message should go to the log file
 DEBUG:root:This message should go to the log file
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+ERROR:grpc._server:Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+ERROR:grpc._server:Exception iterating responses: 'Message' object is not an iterator
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/grpc/_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'Message' object is not an iterator
+DEBUG:root:This message should go to the log file

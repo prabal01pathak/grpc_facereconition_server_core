@@ -125,7 +125,7 @@ def sender(request,r1):
             
             
         else:
-            os.mkdir(os.path.join(UPLOAD_PATH,request.uuid))
+            os.mkdir(os.path.join(BASE_DIRECTORY,'uploads',request.uuid))
             # path=os.path.join(Settings.BASE_DIRECTORY,UPLOAD_PATH,face_id))+'/'+str(r1)+".jpg"
             print("creating directory")
             cv2.imwrite(str(os.path.join(UPLOAD_PATH,request.uuid))+'/'+str(r1)+".jpg",img)
@@ -172,11 +172,12 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
                     face_id=recognition(k_encodings,face_encoding,Sensitivity,k_names)
                     print("Fcae id {}".format(face_id))
                     
+                    yield  pb2.Message(message=face_id)
                             
             else:
                 face_id="unknown"
             
-        return pb2.Message(message=face_id)
+                return pb2.Message(message=face_id)
                 
 
         #         yield face_id
