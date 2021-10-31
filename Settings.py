@@ -2,13 +2,31 @@ import pymysql
 import os
 import pymongo
 import time
-import pyaml
+import yaml
 
-client = pymongo.MongoClient("mongodb+srv://suraj258:suraj258@cluster0.a1dx7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-Sensitivity=0.8
-Model_Type="hog"
+with open('project.yaml', 'r') as f:
+    doc = yaml.load(f,Loader=yaml.FullLoader)
 
-Number_of_times_to_upsample=3
+
+config = {
+    "username": "root",
+    "password": "Secret",
+    "server": "mongo",
+}
+connector = "mongodb://{}:{}@{}".format(config["username"], config["password"], config["server"])
+try:
+    client = pymongo.MongoClient(connector)
+    print("DB connection sucessfull ")
+except:
+    print("DB connection un sucessfull....")
+
+
+
+#client = pymongo.MongoClient("mongodb+srv://suraj258:suraj258@cluster0.a1dx7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+Sensitivity= doc["settings"]["sensitivity"]
+Model_Type= doc["settings"]["model_Type"]
+
+Number_of_times_to_upsample= doc["settings"]["upsample"]
 
 
 BASE_DIRECTORY = os.path.abspath(os.path.dirname(__file__))
@@ -23,11 +41,5 @@ UPLOAD_PATH=os.path.abspath(os.path.join(BASE_DIRECTORY,'uploads'))
 #     DB = pymysql.connect(host='localhost', user='root', password='',database='faceginis' ,port=3306)
 #     #create database
 #     #db.cursor().execute('create database faceginis')
-config = {
-    "username": "root",
-    "password": "Secret",
-    "server": "mongo",
-}
 
-connector = "mongodb://{}:{}@{}".format(config["username"], config["password"], config["server"])
-client = pymongo.MongoClient(connector)
+

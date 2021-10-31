@@ -1,0 +1,7 @@
+project:
+  name: resolute-facegenie-api
+  v: 1.0.0
+settings:
+  sensitivity: 0.8
+  model_Type: "hog"
+  upsample: 3
