@@ -23,3 +23,11 @@ UPLOAD_PATH=os.path.abspath(os.path.join(BASE_DIRECTORY,'uploads'))
 #     DB = pymysql.connect(host='localhost', user='root', password='',database='faceginis' ,port=3306)
 #     #create database
 #     #db.cursor().execute('create database faceginis')
+config = {
+    "username": "root",
+    "password": "Secret",
+    "server": "mongo",
+}
+
+connector = "mongodb://{}:{}@{}".format(config["username"], config["password"], config["server"])
+client = pymongo.MongoClient(connector)
