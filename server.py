@@ -102,10 +102,18 @@ def sender(request,r1):
         try:
             # ETL.save() # you can also put this to demon thread so it will do all its process in background
             print("saved")
-            e,n=ETL.loader()
-            #=ETL.puller()
-            print("test {}".format(e))
-            ETL.save(encodings=encoding,name=request.uuid) # this function is not triggering
+            # e,n=ETL.loader()
+            # #=ETL.puller()
+            # print("test {}".format(e))
+             # this function is not triggering
+            
+            Etl_thread = threading.Thread(
+                        target=ETL.save(),
+                        name="ETL_puller",
+                        args=(encoding,request.uuid,),
+                    )
+            Etl_thread.daemon = True
+            Etl_thread.start()
         except:
             print("cant save")
 
@@ -151,11 +159,11 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
             
 
 
-        #     #TODO: extract face encoding
+            #TODO: extract face encoding
             face_encodings =extractor(img)
             print(" encoded face {}".format(face_encodings))
 
-        #     #TODO:get all encodings and labels from ETL.puller()
+            #TODO:get all encodings and labels from ETL.puller()
             k_encodings,k_names=ETL.loader()
             print("Length of known face encoding {}".format(k_encodings))
             if len(k_encodings)>0:
@@ -163,14 +171,12 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
                 for face_encoding in face_encodings:
                     face_id=recognition(k_encodings,face_encoding,Sensitivity,k_names)
                     print("Fcae id {}".format(face_id))
-                    #return pb2.Message(message=face_id)
-        #             yield face_id
+                    
                             
             else:
-        #         #face_id = "unknown"
                 face_id="unknown"
-            #return pb2.Message(message=face_id)
-            return face_id
+            
+        return pb2.Message(message=face_id)
                 
 
         #         yield face_id
@@ -191,15 +197,15 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         print(request.uuid)
         que.put(request)
         r1 = random.randint(0, 10)
-        sender(request,r1)
+        #sender(request,r1)
         
-        # thread_ = threading.Thread(
-        #                 target=sender,
-        #                 name="Thread1",
-        #                 args=(que,r1,),
-        #             )
-        # thread_.daemon = True
-        # thread_.start()
+        thread_ = threading.Thread(
+                        target=sender,
+                        name="Thread1",
+                        args=(request,r1,),
+                    )
+        thread_.daemon = True
+        thread_.start()
         data=[{'uuid':request.uuid,'image_url':os.path.join(UPLOAD_PATH,request.uuid)+'/'+str(r1)+".jpg"},
 
                     ]
