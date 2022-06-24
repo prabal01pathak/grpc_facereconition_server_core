@@ -2607,3 +2607,20 @@ Traceback (most recent call last):
     return next(response_iterator), True
 TypeError: 'Message' object is not an iterator
 DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
