@@ -1,13 +1,11 @@
-from __future__ import print_function
-
+import base64
+import time
 
 import grpc
 import bidirectional_pb2_grpc as bidirectional_pb2_grpc
 import bidirectional_pb2 as bidirectional_pb2
 import bidirectional_pb2 as pb2
 
-import base64
-import time
 
 # fake_data = Faker()
 uuid = "sushant123"
