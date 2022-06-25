@@ -2624,3 +2624,10 @@ DEBUG:root:pushing
 DEBUG:root:pushing
 DEBUG:root:pushing
 DEBUG:root:pushing
+DEBUG:root:This message should go to the log file
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing
+DEBUG:root:pushing

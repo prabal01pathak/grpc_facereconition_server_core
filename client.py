@@ -1,6 +1,5 @@
 from __future__ import print_function
 
-from google.protobuf import message
 
 import grpc
 import bidirectional_pb2_grpc as bidirectional_pb2_grpc
@@ -78,7 +77,6 @@ def send_message(stub):
     #for response in responses:
       # print("Hello from the server received your %s" % response.message)
        """
-
     endTime = time.time()
     print(str(endTime - startTime))
 

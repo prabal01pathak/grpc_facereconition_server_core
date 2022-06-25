@@ -134,16 +134,7 @@ def sender(request,r1):
         print("register done")
         
 
-
-
-
-
-
-
-
-
 class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
-
     def GetServerResponse(self, request_iterator, context):
         '''
             this service work for bidirection face recognition        
@@ -151,14 +142,11 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
         print("rcognition function triggered  {}".format(request_iterator))
         face_id = "unknown"
         for message in request_iterator:
-            
             nparr = utils.convert_and_save(message.message)
             print("numpy array converted")
             img = cv2.imdecode(nparr, flags=cv2.IMREAD_COLOR)
             print("decodecd to image")
             
-
-
             #TODO: extract face encoding
             face_encodings =extractor(img)
             print(" encoded face {}".format(face_encodings))
@@ -171,15 +159,10 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
                 for face_encoding in face_encodings:
                     face_id=recognition(k_encodings,face_encoding,Sensitivity,k_names)
                     print("Fcae id {}".format(face_id))
-                    
                     yield  pb2.Message(message=face_id)
-                            
             else:
                 face_id="unknown"
-            
                 return pb2.Message(message=face_id)
-                
-
         #         yield face_id
                 #face_id="no face found"
             
@@ -214,7 +197,7 @@ class BidirectionalService(bidirectional_pb2_grpc.BidirectionalServicer):
 
                     
             print(data)
-            a.insert_data(collection=collection,insertData=data)
+            # a.insert_data(collection=collection,insertData=data)
             print("inserted to data base")
 
         except Exception as e:
